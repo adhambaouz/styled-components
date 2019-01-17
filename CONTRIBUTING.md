@@ -82,6 +82,8 @@ Here is a quick guide to doing code contributions to the library.
 
 Run [`yarn install`](https://yarnpkg.com/) and edit code in the `packages/styled-components/src/` folder. It's luckily very simple! :wink:
 
+> We use yarn workspaces with [lerna](https://github.com/lerna/lerna) to make this work as a monorepo under the hood.
+
 ### How do I verify and test my changes?
 
 To make development process easier we provide a Sandbox React application in this repo which automatically uses your local version of the `styled-components` library. That means when you make any changes in the `packages/styled-components/src/` folder they'll show up automatically there!
