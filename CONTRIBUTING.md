@@ -62,31 +62,33 @@ Here is a quick guide to doing code contributions to the library.
 
 3. Create a branch with a meaningful name for the issue: `git checkout -b fix-something`
 
-4. Make your changes and commit: `git add` and `git commit`
+4. Install packages by running `yarn` in the root of the project.
 
-5. Make sure that the tests still pass: `yarn test` and `yarn run flow` (for the type checks)
+5. Make your changes and commit: `git add` and `git commit`
 
-6. Push your branch: `git push -u origin your-branch-name`
+6. Make sure that the tests still pass: `yarn test` and `yarn run flow` (for the type checks)
 
-7. Submit a pull request to the upstream styled-components repository.
+7. Push your branch: `git push -u origin your-branch-name`
 
-8. Choose a descriptive title and describe your changes briefly.
+8. Submit a pull request to the upstream styled-components repository.
 
-9. Wait for a maintainer to review your PR, make changes if it's being recommended, and get it merged.
+9. Choose a descriptive title and describe your changes briefly.
 
-10. Perform a celebratory dance! :dancer:
+10. Wait for a maintainer to review your PR, make changes if it's being recommended, and get it merged.
+
+11. Perform a celebratory dance! :dancer:
 
 ### How do I set up the project?
 
-Run [`yarn install`](https://yarnpkg.com/) and edit code in the `src/` folder. It's luckily very simple! :wink:
+Run [`yarn install`](https://yarnpkg.com/) and edit code in the `packages/styled-components/src/` folder. It's luckily very simple! :wink:
 
 ### How do I verify and test my changes?
 
-To make development process easier we provide a Sandbox React application in this repo which automatically uses your local version of the `styled-components` library. That means when you make any changes in the `src/` folder they'll show up automatically there!
+To make development process easier we provide a Sandbox React application in this repo which automatically uses your local version of the `styled-components` library. That means when you make any changes in the `packages/styled-components/src/` folder they'll show up automatically there!
 
 To use the sandbox, follow these steps:
 
-1. Go to sandbox folder: `cd sandbox`
+1. Go to sandbox folder: `cd packages/sandbox`
 
 2. Install all the dependencies: `yarn install`. Since this repository uses `yarn` workspaces, avoid using `npm` where you can.
 
