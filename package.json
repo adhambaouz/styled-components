@@ -8,6 +8,7 @@
     "clean":"lerna clean",
     "dev": "lerna run dev --stream --parallel",
     "flow": "lerna run flow --stream --parallel",
+    "lint": "lerna run lint --stream --parallel",
     "lint-staged": "lerna run lint-staged --stream --parallel",
     "size": "lerna run size --stream --parallel",
     "test": "run-s test:*",
