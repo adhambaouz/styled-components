@@ -98,13 +98,13 @@ Now you should have the sandbox running on `localhost:3000`. The Sandbox support
 
 You can use an interactive editor, powered by [`react-live`](https://react-live.philpl.com/), to test your changes. But if you want more control, you can edit the sandbox itself too:
 
-- Root `<App>` component is located at `styled-components/sandbox/src/App.js` file
+- Root `<App>` component is located at `packages/sandbox/src/App.js` file
 
-- Client-side entry point is at `styled-components/sandbox/src/browser.js`
+- Client-side entry point is at `packages/sandbox/src/browser.js`
 
-- Server-side entry point is at `styled-components/sandbox/src/server.js`
+- Server-side entry point is at `packages/sandbox/src/server.js`
 
-In the sandbox source, `styled-components` is an alias to `styled-components/src` folder, so you can edit the source directly and dev-server will handle rebuilding the source and livereloading your sandbox after the build is done.
+In the sandbox source, `styled-components` is an alias to `packages/styled-components/src` folder, so you can edit the source directly and dev-server will handle rebuilding the source and livereloading your sandbox after the build is done.
 
 When you commit our pre-commit hook will run, which executes `lint-staged`. It will run the linter automatically and warn you if the code you've written doesn't comply with our code style guidelines.
 
